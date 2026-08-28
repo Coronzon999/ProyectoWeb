@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+.titulo-2, .titulo-1{
+    font-family: 'Poppins';
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: -1em;
+    color: #fff;
+    text-align: left;
+    text-align: justify;        
+
+}
+
+.titulo-1{
+    font-size: 2.2em;
+    margin-top: -14px;
+
+}
+
+.subtitulo{
+    font-family: 'Poppins';
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.parrafo{
+    font-family: 'Poppins';
+    font-size: .9em;
+    text-align: justify;
+    line-height: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: #fff;
+    margin-left: 20px;
+
+}
