@@ -1,0 +1,122 @@
+/* VARIABLES CSS */
+/* EL ROOT ES EL SELECTOR PADRE */
+:root{
+    --colorPrimario: #EC111A;
+    --colorSecundario: #082BA5;
+    --colorTerciario: #007BDF;
+    --colorTitulos: #282D31;
+    --colorParrafos: #53575A;
+    --colorSombras: #282D31;
+}
+/* SELECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.titulo-2, .titulo-1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.titulo-1{
+    color: var(--colorPrimario);
+    font-size: 2.2em;
+    margin-top: -14px;
+}
+
+.titulo-4, .titulo-3{
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.titulo-3{
+    color: var(--colorPrimario);
+    margin-top: -14px;
+}
+
+.parrafo{
+    font-family: 'Poppins';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.boton{
+    background-color: var(--colorPrimario);
+    color: #fff;
+    padding: 1em;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: .9em;
+    transition: background-color .5s ease-in-out;
+}
+.boton:hover{
+    background-color: var(--colorSecundario);
+    color: #fff;
+}
+
+.container{
+    margin-top: 6em;    
+}
+
+.IconoWS{
+    position: fixed;
+    left: 1em;
+    bottom: 1em;
+    font-size: 46px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    padding: .2em;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.IconoAR{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    font-size: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: .2em;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.IconoFB{
+    position: fixed;
+    left: 1em;
+    bottom: 3em;
+    font-size: 45px;
+    background-color: #4267B2;
+    color: #fff;
+    border-radius: 50%;
+    padding: .2em;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.IconoIN{
+    position: fixed;
+    left: 1em;
+    bottom: 4.8em;
+    font-size: 48px;
+    background-color: #833AB4;
+    color: #fff;
+    border-radius: 50%;
+    padding: .2em;
+    box-shadow: 0px 0px 6px #000;
+}
+
+
