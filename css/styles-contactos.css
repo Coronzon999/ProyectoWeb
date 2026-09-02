@@ -13,17 +13,21 @@
     box-sizing: border-box;
 }
 
+/*
 body{
     justify-content: center;    
     display: grid;
     place-items: center;
     min-height: 100vh;  
 }
+*/
+
 
 form{
     padding: 1em;
     max-width: 600px;
     box-shadow: 0 0 6px var(--colorSombras);
+    margin: 12% auto;
 }
 
 input{
